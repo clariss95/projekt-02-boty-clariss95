@@ -28,7 +28,7 @@ body {
  Rubik - pouzite rezy pisma regular 400 a medium 500
  https://fonts.google.com/specimen/Rubik
 
- font-family: 'Rubik', sans-serif;
+ styl pisma: font-family: 'Rubik', sans-serif;
 
  KULATE ROHY
  border-radius: 30px;
@@ -151,24 +151,15 @@ body {
 
 .akce {
     position: absolute;
-    bottom: -95px;
-    padding-left: 30px;
-    height: 50px;
-    width: 120px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-}
-
-.akce div {
-    background-color: #f15f42;
+    bottom: -80px;
 }
 
 .tlacitko {
     text-transform: uppercase;
     color: #f5f5f5;
     text-decoration: none;
-    position: absolute;
-    top: 17px;
-    left: 23px;
-    margin: 0;
+    padding: 15px;
+    background-color: #f15f42;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
